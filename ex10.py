@@ -16,6 +16,3 @@ def main():
     # Print the message
     print(result)
 
-# Ensure main() runs when the program is executed
-if __name__ == "__main__":
-    main()
