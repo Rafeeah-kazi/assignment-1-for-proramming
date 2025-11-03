@@ -4,7 +4,7 @@
 names = ["Jake", "Zac", "Ian", "Ron", "Sam", "Dave"]
 
 # Ask user for a name to search
-search = input("Enter a name to search (press Enter to search for Sam): ")
+search = input("Enter a name to search: ")
 
 # Use "Sam" if user doesn't type anything
 if not search:
@@ -18,4 +18,5 @@ else:
 
     
     
+
     
