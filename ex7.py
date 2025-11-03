@@ -19,7 +19,7 @@ print each number in the loop
 """          
 # 2. Count down from 50 to 0
 print("Counting down from 50 to 0:")  
-for i in range(50, -1, -1):          
+for i in range(50, -1):          
     print(i)
 
 # 3. Count up from 30 to 50
@@ -38,5 +38,6 @@ for i in range(50, 9, -2):
 print("Counting up from 100 to 200 by 5:")  
 for i in range(100, 201, 5): # Loop from 100 to 200, increasing by 5 each time
     print(i)                                
+
 
 print("Done!")  # Indicate that all counting loops are finished
