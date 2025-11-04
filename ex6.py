@@ -1,6 +1,6 @@
 # Excercise 6 - Define the correct password
 
-correct_password = "3672"
+correct_password = "12345"
 
 #asking the user for password until its correct
 
@@ -12,5 +12,6 @@ while True:
     else:
         print("Incorrect password. Try again.")
         
+
 
 
