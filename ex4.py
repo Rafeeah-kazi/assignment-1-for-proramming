@@ -13,11 +13,17 @@ else:                      #it's the condition for fales
 
 
 quiz = {
-    "Japan": "Tokyo",
-    "Canada": "Ottawa",
-    "Australia": "Canberra",
-    "India": "New Delhi",
-    "Bangladesh": "Dhaka"
+    quiz = {
+    "France": "Paris",
+    "Germany": "Berlin",
+    "Italy": "Rome",
+    "Spain": "Madrid",
+    "Portugal": "Lisbon",
+    "Netherlands": "Amsterdam",
+    "Belgium": "Brussels",
+    "Sweden": "Stockholm",
+    "Norway": "Oslo",
+    "Switzerland": "Bern"
 }
 
 score = 0  # To count correct answers
@@ -30,4 +36,5 @@ for country in quiz:
         score += 1
     else:
         print(f"Wrong! The correct answer is {quiz[country]}.")
+
 
