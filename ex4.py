@@ -13,7 +13,6 @@ else:                      #it's the condition for fales
 
 
 quiz = {
-    quiz = {
     "France": "Paris",
     "Germany": "Berlin",
     "Italy": "Rome",
@@ -36,5 +35,6 @@ for country in quiz:
         score += 1
     else:
         print(f"Wrong! The correct answer is {quiz[country]}.")
+
 
 
